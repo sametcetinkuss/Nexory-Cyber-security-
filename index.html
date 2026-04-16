@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexory | Siber Güvenlik Çözümleri</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0b0f1a;
+      color: #e6e6e6;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: #0f172a;
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      color: #00ffcc;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #e6e6e6;
+      margin-left: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ffcc;
+    }
+
+    .hero {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: radial-gradient(circle at top, #12213a, #0b0f1a);
+      padding: 20px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      color: #00ffcc;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      font-size: 18px;
+      color: #b0b0b0;
+    }
+
+    .btn {
+      margin-top: 25px;
+      padding: 12px 25px;
+      background: #00ffcc;
+      color: #000;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00c9a7;
+    }
+
+    section {
+      padding: 80px 60px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111827;
+      padding: 25px;
+      border-radius: 10px;
+      border: 1px solid #1f2937;
+    }
+
+    .card h3 {
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f172a;
+      color: #777;
+    }
+
+    @media(max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+
+      .hero h2 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NEXORY</h1>
+    <nav>
+      <a href="#about">Hakkımızda</a>
+      <a href="#services">Hizmetler</a>
+      <a href="#contact">İletişim</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Dijital Dünyayı Koruyoruz</h2>
+    <p>Nexory, gelişmiş siber güvenlik çözümleri ile şirketleri ve bireyleri dijital tehditlere karşı korur.</p>
+    <button class="btn">Bize Ulaş</button>
+  </section>
+
+  <section id="about">
+    <h2>Hakkımızda</h2>
+    <p>
+      Nexory, modern siber tehditlere karşı proaktif güvenlik çözümleri geliştiren bir teknoloji firmasıdır.
+      Penetrasyon testleri, ağ güvenliği ve güvenlik danışmanlığı sunar.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Hizmetler</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Penetrasyon Testi</h3>
+        <p>Sistemlerinizdeki zafiyetleri tespit eder ve raporlarız.</p>
+      </div>
+      <div class="card">
+        <h3>Ağ Güvenliği</h3>
+        <p>Kurumsal ağlarınızı dış tehditlere karşı koruruz.</p>
+      </div>
+      <div class="card">
+        <h3>Güvenlik Danışmanlığı</h3>
+        <p>Şirketinize özel güvenlik stratejileri geliştiririz.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>İletişim</h2>
+    <p>Email: info@nexory.com</p>
+    <p>Telefon: +90 5xx xxx xx xx</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Nexory Siber Güvenlik. Tüm hakları saklıdır.</p>
+  </footer>
+
+</body>
+</html>
